@@ -11,7 +11,8 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: rgb(243, 243, 243);
-    margin: 0;
+    margin: 0px;
+    margin-top: 50px;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -21,26 +22,140 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 60%;
+    width: 42%;
+    border: 2px black solid;
 
 }
 
 .topo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 10px;
 }
 
-.instagram-logo {
+.feed-informacoes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
     display: flex;
     align-items: start;
 }
 
-.instagram-logo img {
-    height: 10rem;
+.logo img {
+    height: 8rem;
+    width: 8rem;
+    border: 1px antiquewhite solid ;
+    border-radius: 100%;
 }
 
 .instagram-dados {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    padding-left: 10px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.numeros {
+    display: flex;
+    flex-direction: column;
+    padding-left: 38px ;
+}
+
+.numeros_feed label {
+    font-size: 20px;
+    padding: 14px;
+}
+
+.identificacao span {
+    font-size: 15px;
+    font-family: verdana;
+    color: gray;
+    padding: 6px;
+}
+.follow{
+    padding: 1px;
+    margin: 10px;
+}
+
+.button_follow button {
+    color: #0095f6;
+    font-family: verdana;
+    align-content: center;
+    background: white;
+    border: 1px #0095f6 solid;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+.button_follow i{
+    color: #0095f6;
+    background: white;
+    border: 1px #0095f6 solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.feed_bio {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.feed_bio label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.feed_bio span {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.feed_bio a {
+    padding-bottom: 20px;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    border: 0.5px grey solid;
+    padding: 0px;
+}
+.icones i {
+    font-size: 20px;
+    color: grey;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feed_fotos {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.feed_fotos img{
+    border: 0.4px antiquewhite solid;
+    height: 12rem;
+    width: 13rem;
 }
